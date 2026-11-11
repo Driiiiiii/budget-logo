@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Budget</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="budget_app_logo_512_vollflaechig.png">
+<script>
+  var APP = 'https://script.google.com/macros/s/AKfycbwXzp7oFHfC2EFWnkNF8Ws2_rpKcZCCjc7OjlMFkMfQ13oGoa51GzZ3BXJMxW-VC9ES/exec';
+  if (location.search.indexOf('setup') === -1) {
+    location.replace(APP);
+  } else {
+    history.replaceState(null, '', location.pathname);
+  }
+</script>
+</head>
+<body style="background:#FBF8F2;font-family:sans-serif;padding:24px">
+  <p>Tippe unten auf Teilen und dann auf „Zum Home-Bildschirm".</p>
+</body>
+</html>
