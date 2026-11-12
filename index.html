@@ -3,22 +3,19 @@
 <head>
 <meta charset="utf-8">
 <title>Budget</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="apple-touch-icon" href="budget_app_logo_512_vollflaechig.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Budget">
-<script>
-  var APP = 'https://script.google.com/macros/s/AKfycbwXzp7oFHfC2EFWnkNF8Ws2_rpKcZCCjc7OjlMFkMfQ13oGoa51GzZ3BXJMxW-VC9ES/exec?v=neu';
-  if (location.search.indexOf('setup') === -1) {
-    location.replace(APP);
-  } else {
-    history.replaceState(null, '', location.pathname);
-  }
-</script>
+<style>
+  html, body { margin: 0; height: 100%; background: #FBF8F2; }
+  body { box-sizing: border-box; padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); }
+  iframe { display: block; width: 100%; height: 100%; border: 0; }
+</style>
 </head>
-<body style="background:#FBF8F2;font-family:sans-serif;padding:24px">
-  <p>Tippe unten auf Teilen und dann auf „Zum Home-Bildschirm".</p>
+<body>
+<iframe src="LINK"></iframe>
 </body>
 </html>
